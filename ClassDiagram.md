@@ -6,9 +6,9 @@ classDiagram
         -name : String
         -phone : String
         -address : String
-        +registerUser(id: String,pw: String,name: String, phone: String, address: String) 
-        +updateUser(id: String,name: String, phone: String, address: String) 
-        +deleteUser(id: String) 
+        +registerUser(id: String,pw: String,name: String, phone: String, address: String) boolean
+        +updateUser(id: String,name: String, phone: String, address: String) boolean
+        +deleteUser(id: String) boolean
         +searchUser(id: String) boolean
     }
 
