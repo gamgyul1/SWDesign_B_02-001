@@ -6,12 +6,10 @@ classDiagram
         -name : String
         -phone : String
         -address : String
-<<<<<<< HEAD
         +registerUser(id: String,pw: String,name: String, phone: String, address: String) 
         +updateUser(id: String,name: String, phone: String, address: String) 
         +deleteUser(id: String) boolean
         +searchUser(id: String) User
->>>>>>> 2c3f33ec945eb8b4baceb4f461119760e1ae97a6
     }
 
     class Account {
