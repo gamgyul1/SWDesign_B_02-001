@@ -8,8 +8,8 @@ classDiagram
         -address : String
         +registerUser(id: String,pw: String,name: String, phone: String, address: String) 
         +updateUser(id: String,name: String, phone: String, address: String) 
-        +deleteUser(id: String) 
-        +searchUser(id: String) boolean
+        +deleteUser(id: String) boolean
+        +searchUser(id: String) User
     }
 
     class Account {
