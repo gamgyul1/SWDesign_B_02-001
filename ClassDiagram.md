@@ -11,11 +11,6 @@ classDiagram
         +updateUser(id: String,name: String, phone: String, address: String) 
         +deleteUser(id: String) boolean
         +searchUser(id: String) User
-=======
-        +registerUser(id: String,pw: String,name: String, phone: String, address: String) boolean
-        +updateUser(id: String,name: String, phone: String, address: String) boolean
-        +deleteUser(id: String) boolean
-        +searchUser(id: String) boolean
 >>>>>>> 2c3f33ec945eb8b4baceb4f461119760e1ae97a6
     }
 
